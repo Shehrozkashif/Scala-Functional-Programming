@@ -3,6 +3,9 @@ object array {
 def array ():Unit = {
 
   val arr: Array[Int] = Array(1, 2, 3, 4, 5)
+  val myArray: Array[Int] = Array(1, 2, 3, 4, 5)
+  val rangeArray = Array.range(1, 6)
+  val arr1 = Array(1, 2)
 
   val elemnt1: Int = arr(0)
   val elemnt2: Int = arr(1)
